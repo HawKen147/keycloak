@@ -16,24 +16,23 @@ Créer le container docker avec cette commande : `docker run -p 8080:8080 -e KC_
 #### Créer des rôles (différents droits)
 
 Dans Keycloak, les rôles permettent de définir des droits d'accès. Pour notre PoC, nous allons créer trois rôles différents.
-
-    Allez dans la section "Roles" du realm créé.
-    Cliquez sur "Add Role" pour ajouter de nouveaux rôles.
-        Admin : un rôle avec des droits d'administrateur.
-        User : un rôle avec des droits d'utilisateur de base.
-        Viewer : un rôle avec des droits de consultation.
+Allez dans la section **"Roles"** du realm créé.
+Cliquez sur "Add Role" pour ajouter de nouveaux rôles.
+    - Admin : un rôle avec des droits d'administrateur.
+    - User : un rôle avec des droits d'utilisateur de base.
+    - Viewer : un rôle avec des droits de consultation.
 
 #### Créer des utilisateurs
 
 Vous allez maintenant créer trois utilisateurs avec ces rôles différents.
 
-    Allez dans la section "Users" du realm créé.
-    Cliquez sur "Add User" pour créer un nouvel utilisateur.
-    Créez trois utilisateurs avec des noms différents, par exemple :
-        admin@example.com : Utilisateur avec le rôle "Admin".
-        user@example.com : Utilisateur avec le rôle "User".
-        viewer@example.com : Utilisateur avec le rôle "Viewer".
-    Cliquez sur "Save" après avoir rempli les informations de chaque utilisateur.
+Allez dans la section **"Users"** du realm créé.
+Cliquez sur "Add User" pour créer un nouvel utilisateur.
+Créez trois utilisateurs avec des noms différents, par exemple :
+    - admin@example.com : Utilisateur avec le rôle "Admin".
+    - user@example.com : Utilisateur avec le rôle "User".
+    - viewer@example.com : Utilisateur avec le rôle "Viewer".
+Cliquez sur "Save" après avoir rempli les informations de chaque utilisateur.
 
 #### Assigner des rôles aux utilisateurs
 
