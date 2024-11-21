@@ -8,10 +8,10 @@ Créer le container docker avec cette commande : `docker run -p 8080:8080 -e KC_
 ### Configurer Keycloak
 #### Créer un Realm (Espace de gestion des utilisateurs et des rôles)
 
-    Connectez-vous à l'interface d'administration de Keycloak à l'adresse http://localhost:8080/auth/admin/ avec le compte administrateur par défaut.
-    Allez dans la section "Realms" (dans la barre latérale à gauche).
-    Cliquez sur "Create Realm" pour créer un nouveau domaine (realm).
-    Donnez-lui un nom, par exemple, example-realm, puis cliquez sur Create.
+- Connectez-vous à l'interface d'administration de Keycloak à l'adresse http://localhost:8080/auth/admin/ avec le compte administrateur par défaut.
+- Allez dans la section "Realms" (dans la barre latérale à gauche).
+- Cliquez sur "Create Realm" pour créer un nouveau domaine (realm).
+- Donnez-lui un nom, par exemple, example-realm, puis cliquez sur Create.
 
 #### Créer des rôles (différents droits)
 
