@@ -94,7 +94,8 @@ views/ : Dossier contenant les pages HTML (utilisez un moteur de template comme 
 
 #### Code pour index.js :
 
-`const express = require('express');
+```
+const express = require('express');
 const session = require('express-session');
 const Keycloak = require('keycloak-connect');
 
@@ -135,7 +136,7 @@ app.get('/logout', (req, res) => {
 // Lancer le serveur
 app.listen(3000, () => {
   console.log('Site web en ligne sur http://localhost:3000');
-});`
+});```
 
 ### Tests
 
