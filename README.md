@@ -83,9 +83,11 @@ Pour chaque utilisateur, vous pouvez définir des permissions d'accès dans l'ap
 
 Exemple : Site web Node.js avec Express.js
 #### Installation des dépendances :
+```
+npm init -y
+npm install express express-session keycloak-connect
+```
 
-`npm init -y`
-`npm install express express-session keycloak-connect`
 
 #### Structure des fichiers :
 
@@ -140,7 +142,7 @@ app.listen(3000, () => {
 ```
 
 ### Tests
-
+- Démarrer le serveur web : `node index.js`
 - Accédez à http://localhost:3000.
 - Cliquez sur les liens vers /admin et /user.
 - Vous serez redirigé vers Keycloak pour vous connecter.
