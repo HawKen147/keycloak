@@ -1,9 +1,8 @@
 {
-    "realm": "example-realm",
-    "auth-server-url": "http://localhost:8080/",
-    "ssl-required": "none",
-    "resource": "my-website",
-    "public-client": true,
-    "confidential-port": 0
-  }
-  
+  "realm": "MyRealm",
+  "auth-server-url": "http://localhost:8080/",
+  "ssl-required": "none",
+  "resource": "my-website",
+  "public-client": true,
+  "confidential-port": 0
+}
